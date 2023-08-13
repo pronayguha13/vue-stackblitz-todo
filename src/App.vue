@@ -29,6 +29,9 @@ export default defineComponent({
       taskInput.value = '';
     };
 
+    //TODO: Implement caching logic for the tasks whenever the tasks are changed
+    //TODO: Seperate out component(SOLID)
+
     return {
       taskInput,
       tasks,
